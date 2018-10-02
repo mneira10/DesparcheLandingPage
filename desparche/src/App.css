@@ -27,18 +27,17 @@ p {
   height: 100%;
   display: flex;
   align-items: center;
-  background-color: #313D6B;
+  /* background-color: #313D6B; */
+  background-image: url("./imgs/bar.jpeg");
+  background-size: cover;
 }
 
-.MainBannerItem {
+.MainBannerItem, .feature {
   flex-grow: 1;
 }
 
 .phonePic {
-  /* height: 50%; */
   width: 40%;
-  /* max-width: 300px; */
-  /* max-height: 50% ; */
 }
 
 .titles { 
@@ -47,3 +46,24 @@ p {
   align-content: flex-start;
 }
 
+.Features {
+  height: 50%;
+  background-color: #F4F4F9;
+  display: flex;  
+  color: #000000;
+  align-items: center;  
+}
+
+.feature {
+  width : 20%;
+}
+
+.featureImage { 
+  width : 25%;
+}
+
+
+.featureDescription { 
+  font-size: 100%;
+  color: #596E7B;
+}

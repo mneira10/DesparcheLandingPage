@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import MainBanner from './modules/MainBanner';
+import Features from './modules/Features';
  
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <MainBanner/>
-        
+        <Features/>
       </div>
     );
   }
