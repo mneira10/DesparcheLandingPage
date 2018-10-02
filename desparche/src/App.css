@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+h1 {
+  font-size: 500%;
+  color: #F4F4F9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #B7DAD8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.MainBanner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #313D6B;
+}
+
+.MainBannerItem {
+  flex-grow: 1;
+}
+
+.phonePic {
+  /* height: 50%; */
+  width: 40%;
+  /* max-width: 300px; */
+  /* max-height: 50% ; */
+}
+
+.titles { 
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
