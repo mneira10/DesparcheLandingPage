@@ -20,7 +20,7 @@ export default class Features extends Component {
         <div className="feature">
             <img className='featureImage' src={Plans} alt="Plans"/>
             <h3>Plans</h3>
-            <p className='featureDescription'>Héchale un vistazo a los planes disponibles en Bogotá.</p>
+            <p className='featureDescription'>Échale un vistazo a los planes disponibles en Bogotá.</p>
         </div>
 
         <div className="feature">
