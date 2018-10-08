@@ -42,7 +42,7 @@ export default class Features extends Component {
             <div className="feature col-sm-auto">
                 <img className='featureImage' src={Tourist} alt="Tourist"/>
                 <h3>Tourist</h3>
-                <p className='featureDescription '>¿Te gustaría ser un turista tu ciudad?</p>
+                <p className='featureDescription '>¿Te gustaría ser un turista en tu ciudad?</p>
             </div>
         </div>
       </div>
